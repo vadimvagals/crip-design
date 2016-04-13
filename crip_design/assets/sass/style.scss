@@ -1,0 +1,122 @@
+﻿
+@import 'variables.scss';
+@import 'components/particles.scss';
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
+
+
+@import '../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+@import 'components/ionicons.scss';
+@import 'navbar-toggle.scss';
+@import 'components/header.scss';
+@import 'components/footer.scss';
+@import 'components/copyrights.scss';
+
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: $bg-color;
+    font-size: 18px;
+    font-weight: 300;
+    background-image:url(/assets/img/bg.png);
+    background-repeat: repeat-x;
+    background-position: 0px 600px;
+    text-rendering: optimizeLegibility;
+    font-kerning: normal;
+    color: #4d4d4d;
+    margin: 0 0;
+}
+
+
+
+.crip-header>h2::selection {
+    color: white;
+    background: $second-color;
+}
+
+p::selection {
+    color: white;
+    background: $second-color;
+}
+
+p::selection {
+    color: white;
+    background: $second-color;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 100;
+    hyphens: auto;
+    word-break: break-word;
+    line-height: 150%;
+    color: #ffffff;
+}
+
+
+h2 {
+    font-size: 36px;
+    hyphens: auto;
+    word-break: break-word;
+    line-height: 150%;
+    font-weight: 300;
+    color: #333333;
+    margin: 0 0;
+    margin-top: 82px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 100%;
+    word-break: break-word;
+    margin: 0 0;
+}
+
+p {
+    font-size: 18px;
+    hyphens: auto;
+    word-break: break-word;
+    text-align: justify;
+    text-justify: inter-cluster;
+    font-weight: 300;
+    line-height: 150%;
+    color: #4d4d4d;
+}
+
+
+
+
+.headings {
+    padding-top: 63px;
+}
+
+.content {
+    padding-top: 68px;
+}
+
+.sublinks {
+
+    a {
+        color: $main-color;
+        font-weight: 500;
+        text-decoration: none;
+
+        &:hover {
+            color: $hover-color;
+            text-decoration: underline;
+        }
+    }
+}
+
+
+
+.left-article-txt {
+    padding: 120px 10px 83px 100px;
+}
+
+.center-article-txt {
+    padding: 76px 70px;
+}
+

@@ -1,0 +1,9 @@
+{
+	"name": "ASP.NET",
+	"private": true,
+  "dependencies": {
+    "bootstrap-sass": "^3.3",
+    "particles.js": "*",
+    "ionicons": "^2.0.1"
+  }
+}
